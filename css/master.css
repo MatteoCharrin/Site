@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+.instagram{
+    width: 40px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 200px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+.content p{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(90deg, #200122, #950000);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68, 0,15);
+    margin-top: 2%;
+}
+
+.feature-img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;   
+
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+a{
+    color: white;
+    font-family: "Montserrat";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+    background: #2F3238;
+}
+
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image{
+    background: #50A7FF;
+    position: relative;
+    flex: 1;
+    max-width: 460px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.image img{
+    opacity: 0.8;
+    position: relative;
+    vertical-align: top;
+    transition: 0.6s;
+    transition-property: opacity;
+}
+
+.image:hover img{
+    opacity: 1;
+}
+
+.image .details{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.image .details h2{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 70px;
+    transition: 0.4s;
+    transition-property: transform;
+}
+
+.image .details h2 span{
+    font-weight: 900;
+}
+
+.image:hover .details h2{
+    transform: translateY(-30px);
+}
+
+.image .details p{
+    margin: 30px 30px 0 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    transition: 0.6s;
+    transition-property: opacity, transform;
+}
+
+.image:hover .details p{
+    opacity: 1;
+    transform: translateY(-40px);
+}
+
+.more{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    bottom: -60px;
+    transition: 0.6s;
+    transition-property: bottom;
+}
+
+.image:hover .more{
+    bottom: 0;
+}
+
+.more .read-more{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.more .read-more span{
+    font-weight: 900;
+}
+
+.more .icon-links i{
+    color: #000;
+    font-size: 20px;
+}
+
+.more .icon-links a:not(:last-child) i{
+    margin-right: 20px;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 1080px){
+    .image{
+        flex: 100%;
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 400px){
+    .image .details p{
+        font-size: 16px;
+    }
+
+    .more .read-more, .more .icon-links a i{
+        font-size: 18px;
+    }
+}
