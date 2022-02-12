@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+.html{
+    font-family: "Roboto", serif;
+
+
+}
 .container{
     height: 100vh;
     width: 100%;
@@ -12,6 +18,8 @@
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
+    box-shadow: 0px 20px 100px 91px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px -20px 100px 91px rgba(0,0,0, 0.5);
 }
 
 .navbar{
@@ -20,6 +28,7 @@
     margin: auto;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 
 .logo{
@@ -47,24 +56,26 @@ nav ul li a{
     text-decoration: none;
     color: #ffffff;
 }
-.content h1{
-    font-size: 60px;
-    font-weight: 100;
+h1{
+    font-size: 3.75rem;
+    font-weight: 500;
     margin-top: 200px;
     margin-bottom: 15px;
     color: #ffffff;
-    font-family: "Montserrat";
+
 }
 
-.content p{
-    font-size: 20px;
+p{
+    font-size: 1rem;
     color: #ffffff;
-    font-family: "Montserrat";
+
 }
 
 .content{
+
     margin-left: 10%;
-    margin-top: 10%;
+    padding-top: 10%;
+
 }
 
 .content .btn{
@@ -75,7 +86,7 @@ nav ul li a{
     box-sizing: border-box;
     text-decoration: none;
     color: #fff;
-    box-shadow: 3px 8px 22px rgba(94,28,68, 0,15);
+
     margin-top: 2%;
 }
 
@@ -88,7 +99,7 @@ nav ul li a{
 }
 .social-links{
     transform: rotate(-90deg);
-    position: absolute;
+    position: fixed;
     left: -80px;
     bottom: 180px;
 
@@ -103,15 +114,56 @@ nav ul li a{
 
 a{
     color: white;
-    font-family: "Montserrat";
+    text-decoration: none;
+    font-weight: 500;
 }
 
+.center
+{
+    text-align:center;
+    padding-bottom: 200px;
+    z-index: 1;
+    position: relative;
+
+}
+.center h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.center h2{
+    font-size: 30px;
+    font-weight: 500;
+    color:#ffffff;
+}
+.center h3{
+    font-size: 25px;
+    font-weight: 400;
+    color:#ffffff;
+}
+.center p{
+    font-size: 20px;
+    font-weight: 300;
+    color:#ffffff;
+}
+.container2{
+    padding-top:200px;
 
 
 
-
-
-
+}
+.mid{
+    z-index: -33;
+    transform: translate(587px, -1638px);
+}
+.top{
+    z-index: -33;
+    transform: translate(704px, -2272px);
+}
+.bottom{
+    z-index: -33;
+    transform: translate(-156px, -468px);
+}
 
 
 
@@ -144,20 +196,21 @@ a{
 
 body{
     height: 100vh;
-    font-family: "Raleway", sans-serif;
-    background: #2F3238;
+    font-family: "Roboto", sans-serif;
+    background: #6B0002
+;
 }
 
 
 .row{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .image{
-    background: #50A7FF;
+    background: #7f0303;
     position: relative;
     flex: 1;
     max-width: 460px;
