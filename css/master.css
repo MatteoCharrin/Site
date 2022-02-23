@@ -127,16 +127,21 @@ a{
 
 }
 .center h1{
-    font-size: 52px;
-    font-weight: 700;
+
 }
 
 .center h2{
+    font-size: 52px;
+    font-weight: 700;
+
+}
+.center h3{
     font-size: 30px;
     font-weight: 500;
     color:#ffffff;
+
 }
-.center h3{
+.center h4{
     font-size: 25px;
     font-weight: 400;
     color:#ffffff;
