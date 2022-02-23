@@ -126,13 +126,13 @@ a{
     position: relative;
 
 }
-.center h1{
 
-}
 
 .center h2{
     font-size: 52px;
     font-weight: 700;
+    color:#ffffff;
+    padding-bottom: 20px;
 
 }
 .center h3{
