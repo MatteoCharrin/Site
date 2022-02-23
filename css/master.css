@@ -164,7 +164,8 @@ a{
 }
 .top{
     z-index: -33;
-    transform: translate(704px, -2272px);
+    top:20%;
+    left: 10%;
 }
 .bottom{
     z-index: -33;
@@ -172,33 +173,6 @@ a{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
 
 body{
     height: 100vh;
