@@ -103,6 +103,7 @@ p{
     position: fixed;
     left: -80px;
     bottom: 180px;
+    background: rgba(107, 0, 2, 0.5);
 
 }
 
@@ -292,6 +293,9 @@ body{
 .more .icon-links a:not(:last-child) i{
     margin-right: 20px;
 }
+.social-links{
+    b
+}
 
 /* Responsive CSS */
 
@@ -310,4 +314,12 @@ body{
     .more .read-more, .more .icon-links a i{
         font-size: 18px;
     }
+}
+@media (max-width: 1490px){
+    .feature-img{
+display: none;
+
+
+    }
+
 }
